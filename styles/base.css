@@ -3,7 +3,7 @@
 	padding: 0;
 	box-sizing: border-box;
 }
-@media only screen and (max-width: 499px) {
+@media only screen and (max-width: 600px) {
 	img {
 		max-width: 65%;
 		max-height: 65%;
@@ -35,7 +35,9 @@
 		background-color: #e6f2ff;
 		color: #000000;
 	} */
-
+	main a {
+        color: #0000ee;
+    }
 	footer {
 		padding: 1rem;
 		background-color: #e6f2ff;
@@ -59,7 +61,7 @@
 		margin: 1rem auto;
 		padding: 1rem;
 		background-color: #0054c2;
-		color: #000000;
+		color: white;
 	} 
 
 	.navigation {
@@ -102,4 +104,11 @@
 	#menu.show::before {
 		content: "X";
 	}
+	#mode {
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+        font-size: 3rem;
+        cursor: pointer;
+    }
 }
