@@ -50,6 +50,19 @@
     ul {
         list-style-type: none;
     }
+    .navigation {
+        display: flex;
+    }
+    .navigation li {
+        display: block;
+        flex: 1 1 100%;
+    }
+    .navigation a {
+        text-align: center;
+    }
+    #menu {
+        display: none;
+    }      
     nav, h3 {
         max-width: 1000px;
         margin: 1rem auto;
