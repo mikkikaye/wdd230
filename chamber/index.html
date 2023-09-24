@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mckenzie Hess - WDD 230 - Web Frontend Development</title>
+    <link rel="icon" href="favicon.ico">
+    <meta name="description" content="This Chamber of Commerce page is for WDD 230 - Web Frontend Development.">
+    <meta name="author" content="Mckenzie Hess">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta property="og:title" content="WDD 230 - Web Frontend Development">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="#">
+    <meta property="og:image" content="https://media.rainpos.com/442/lindon.jpg">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href ="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="content">
+            <header>
+                <a  id="logo_link" href="index.html">
+                    <img class="logo" src="images/mountain-logo-875.png" alt="Lindon City Chamber of Commerce Logo">
+                </a>
+                <a id="menu" href="#"></a>
+                <nav>
+                    <ul class="navigation">
+                        <li><a href="index.html">Home</a></li>
+                        <li></li><a href="business.html">Member Directory</a></li>
+                        <li></li><a href="calendar.html">View Calendar</a></li>
+                        <li></li><a href="about.html">About</a></li>
+                    </ul>
+                </nav>
+            </header>
+            
+        <div id="hero">
+            <div id="hero-box">
+                <img id="hero-img" src="images/lindon.jpg" alt="lindon city building with mountains">
+            </div>
+            <section id="hero-msg">
+                <h1 class="home-title">A Little Bit of Country</h1>
+                <h4 class="home-slogan">Slogan</h4>
+                <div class="button-box">
+                    <a class="shop" href="calendar.html">View Current Events</a>
+                </div>
+            </section>
+        </div>
+        <main class="home-grid">
+            <section class="special-card">
+                <img class="card-img" src="images/businesses.jpg" alt="local lindon business park">
+                <img class="icon" src="images/online-shop.png" alt="shop icon">
+                <h2>Great Businesses</h2>
+            </section>
+            <section class="thinking-card">
+                <img class="card-img" src="images/walker_farms.jpg" alt="walker farms reception">
+                <img class="icon" src="images/field.png" alt="farm icon">
+                <h2>Rustic Hometown</h2>
+            </section>
+            <section class="holiday-card">
+                <img class="card-img" src="images/parade.jpg" alt="lindon city parade">
+                <img class="icon" src="images/family.png" alt="trees icon">
+                <h2>Amazing People</h2>
+            </section>
+            <div id="background"></div>
+            <img class="apply" src="images/night.jpeg" alt="lindon city at night">
+            <section class="msg">
+                <h2>Partnership. Education. Networking.</h2>
+                <p>We are the voice of business in Lindon city. We support retail and service businesses by creating opportunities for their growth and success through networking, education and advocacy. Additionally, we partner with large corporations to promote economic development and a vibrant business environment.</p>
+                <a class="shop" href="business.html">Apply Now</a>
+            </section>
+            <img class="weather" src="images/weather.webp" alt="weather">
+            <section class="weather-button">
+                <h2>Weather</h2>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; <span id="year"></span> WDD230-Web Frontend Development - Mckenzie Hess</p>
+            <p id="lastModified"></p>
+            <p><a href="chamber-site-plan.html">Site Plan</a></p>
+            <p><a href="about.html">About</a></p>
+            <div class="social">
+                <a href="https://facebook.com" target="_blank">
+                    <img src="images/meta-logo.webp" alt="meta icon">
+                </a>
+                <a href="https://twitter.com" target="_blank">
+                    <img src="images/x-logo.png" alt="x icon">
+                </a>
+                <a href="https://instagram.com" target="_blank">
+                    <img src="images/instagram.png" alt="instagram icon">
+                </a>
+            </div>
+        </footer>
+        <script src="scripts/getDates.js"></script>
+        <script src="scripts/hamburgerMenu.js"></script>
+    </div>
+</body>
+</html>
