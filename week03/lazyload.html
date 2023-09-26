@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mckenzie Hess - WDD 230 - Web Frontend Development</title>
+        <link rel="icon" href="favicon-small.ico">
+        <meta name="description" content="This web page is for WDD 230 - Web Frontend Development, written by Mckenzie Hess.">
+        <meta name="author" content="Mckenzie Hess">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta property="og:title" content="WDD 230 - Web Frontend Development">
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="#">
+        <meta property="og:image" content="https://media.rainpos.com/442/lindon.jpg">
+        <link rel="stylesheet" href="styles/load.css">
+    </head>
+    <body>
+        <header>
+            <h1>Lazy Loading</h1>
+        </header>
+        <main>
+            <div class="fade">
+                <picture>
+                    <img class="visible" src="images/ocean.jpg" alt="ocean" loading="lazy">
+                </picture>
+                <picture>
+                    <img class="tag visible" src="images/paris-water.jpg" alt="water in building" loading="lazy">
+                </picture>
+                <picture>
+                    <img class="tag visible" src="images/water.jpg" alt="ocean" loading="lazy">
+                </picture>
+                <picture>
+                    <img class="tag visible" src="images/orange.jpg" alt="beach" loading="lazy">
+                </picture>
+                <picture>
+                    <img class="tag visible" src="images/underwater.jpg" alt="underwater" loading="lazy">
+                </picture>
+                <picture>
+                    <img class="tag visible" src="images/waves.jpg" alt="waves" loading="lazy">
+                </picture>
+            </div>
+        </main>
+        <footer><p>&copy; <span id="year"></span> Mckenzie Hess - Utah, USA</p>
+            <p id="lastModified"></p>
+        </footer>
+        <script src="scripts/load.js"></script>
+        <script src="scripts/getDates.js"></script>
+    </body>
+</html>
