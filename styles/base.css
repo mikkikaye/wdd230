@@ -26,15 +26,6 @@
 		justify-content: center;
 	}
 
-	/* main {
-		display: grid;
-		grid-template-columns: 1fr 1fr;
-		grid-gap: 2rem;
-		margin: 1rem auto;
-		padding: 1rem;
-		background-color: #e6f2ff;
-		color: #000000;
-	} */
 	main a {
         color: #0000ee;
     }
@@ -111,7 +102,7 @@
         font-size: 3rem;
         cursor: pointer;
     }
-	
+
 	.overlay {
         position: absolute;
         top: 1050px;
@@ -136,5 +127,18 @@
         margin-left: auto;
         margin-right: auto;
         display: block;
+    }
+	.visits {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: #0054c2;
+        height: 50px;
+        color: white;
+        border-radius: 30px;
+        font-weight: 700;
+        font-size: 25px;
+        margin-top: 10px;
     }
 }
