@@ -60,6 +60,7 @@
     }
     .navigation a {
         text-align: center;
+        color: white;
     }
     #menu {
         display: none;
@@ -68,7 +69,7 @@
         max-width: 1000px;
         margin: 1rem auto;
         padding: 1rem;
-        background-color: #0054c2;
+        background-color: #0047a3;
         color: white;
     } 
     nav ul {
@@ -97,6 +98,7 @@
         right: 1rem;
         font-size: 3rem;
         cursor: pointer;
+        color: black;
     }
     .overlay {
         position: absolute;
@@ -139,7 +141,7 @@
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        background-color: #0054c2;
+        background-color: #0047a3;
         height: 50px;
         width: 1000px;
         color: white;

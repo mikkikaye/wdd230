@@ -3,7 +3,7 @@
 	padding: 0;
 	box-sizing: border-box;
 }
-@media only screen and (max-width: 49900px) {
+@media only screen and (max-width: 499px) {
 	img {
 		max-width: 65%;
 		max-height: 65%;
@@ -51,7 +51,7 @@
 	nav, h3 {
 		margin: 1rem auto;
 		padding: 1rem;
-		background-color: #0054c2;
+		background-color: #0047a3;
 		color: white;
 	} 
 
@@ -68,7 +68,7 @@
 		padding: .75rem;
 		text-align:left;
 		text-decoration: none;
-		color: black;
+		color: white;
 		font-weight: 700;
 		transition: .5s;
 		font-size: clamp(1rem, 2vmin, 1.5rem);
@@ -133,7 +133,7 @@
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        background-color: #0054c2;
+        background-color: #0047a3;
         height: 50px;
         color: white;
         border-radius: 30px;
