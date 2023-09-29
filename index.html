@@ -40,15 +40,15 @@
         </ul>
     </nav>
     <h2>WDD 230: Web Frontend Development</h2>
-        <div class="hero">
-            <picture>
-                <source srcset="images/switzerland-temple-small.webp" media="(max-width: 400px)">
-                <img src="images/south-africa-temple-large.webp" alt="south african lds temple" width="960" height="524">
-            </picture>
-            <div class="overlay">
-                <p>Durban South Africa Temple</p>
-            </div>
+    <div class="hero">
+        <picture>
+            <source srcset="images/switzerland-temple-small.webp" media="(max-width: 400px)">
+            <img src="images/south-africa-temple-large.webp" alt="south african lds temple" width="960" height="524">
+        </picture>
+        <div class="overlay">
+            <label>Durban South Africa Temple</label>
         </div>
+    </div>
         <main>
         <section>
             <h3>Learning Activities</h3>
@@ -71,11 +71,14 @@
         </section>
     </main>
     <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3040.830327605519!2d-111.69545362429234!3d40.34610977145099!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x874d85a07fdd8c05%3A0xeec27db12fd3ffd4!2s973%20E%20390%20N%20St%2C%20Lindon%2C%20UT%2084042!5e0!3m2!1sen!2sus!4v1695783074638!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    <footer><p>&copy; <span id="year"></span> Mckenzie Hess - Utah, USA</p>
+    <footer>
+        <p>&copy; <span id="year"></span> Mckenzie Hess - Utah, USA</p>
         <p id="lastModified"></p>
+        <p class="visits">Website Visitor Counter:</p>
     </footer>
     <script src="scripts/getDates.js"></script>
     <script src="scripts/hamburgerMenu.js"></script>
     <script src="scripts/darkMode.js"></script>
+    <script src="scripts/visitorCounter.js"></script>
 </body>
 </html>

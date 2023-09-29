@@ -15,7 +15,6 @@
     #hero {
         display: grid;
         grid-template-columns: 1fr 3fr 1fr;
-        /* margin-top: -100px; */
     }
     #hero-box {
         grid-column: 1/4;
@@ -34,7 +33,7 @@
         text-align: center;
     }
     .home-title {
-        color: white;
+        color: black;
         font-family: Lora, serif;
         font-size: 2.5em;
         margin-top: 10px;
