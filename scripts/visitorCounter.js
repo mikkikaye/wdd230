@@ -4,8 +4,6 @@ console.log("it loaded");
 if (count !== 0) {
     console.log("count not zero");
     counter.textContent = count;
-    // count = Number(count) + 1;
-    // localStorage.setItem("views", count);
 }
 else {
     console.log("count zero");
