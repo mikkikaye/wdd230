@@ -23,7 +23,7 @@
 <body>
     <header>
         <a href="index.html">
-            <img class="logo" src="images/chamber-logo.webp" alt="Lindon City Chamber of Commerce Logo">
+            <img class="logo" src="images/chamber-logo-small.webp" alt="Lindon City Chamber of Commerce Logo">
         </a>
         <a id="menu" href="#"></a>
         <nav>
@@ -34,47 +34,64 @@
                 <li><a href="about.html">About</a></li>
             </ul>
         </nav>
+            
     </header>
-        
-    <div id="hero">
-        <div id="hero-box">
-            <img id="hero-img" src="images/lindon.jpg" alt="lindon city building with mountains">
-        </div>
-        <section id="hero-msg">
-            <h1 class="home-title">Lindon City Chamber of Commerce</h1>
-            <h4 class="home-slogan">A Little Bit of Country</h4>
-            <div class="button-box">
-                <a class="shop" href="calendar.html">View Current Events</a>
+    
+
+    <div >
+        <picture>
+            <source srcset="images/lindon-smaller.webp" media="(max-width: 600px)">
+            <img id="hero-img" src="images/lindon.webp" alt="lindon city building with mountains" width="1140" height="400">
+        </picture>
+        <section id="hero">
+            <div class="hero-small">
+                <h1 class="home-title">Lindon City Chamber of Commerce</h1>
+                <h4 class="home-slogan">A Little Bit of Country</h4>
+                <div class="button-box">
+                    <a class="button-link" href="calendar.html">View Current Events</a>
+                </div>
             </div>
         </section>
     </div>
-    <main class="home-grid">
-        <section class="special-card">
-            <img class="card-img" src="images/businesses.jpg" alt="local lindon business park">
-            <img class="icon" src="images/online-shop.png" alt="shop icon">
-            <h2>Great Businesses</h2>
-        </section>
-        <section class="thinking-card">
-            <img class="card-img" src="images/walker_farms.jpg" alt="walker farms reception">
-            <img class="icon" src="images/field.png" alt="farm icon">
-            <h2>Rustic Hometown</h2>
-        </section>
-        <section class="holiday-card">
-            <img class="card-img" src="images/parade.jpg" alt="lindon city parade">
-            <img class="icon" src="images/family.png" alt="trees icon">
-            <h2>Amazing People</h2>
-        </section>
-        <div id="background"></div>
-        <img class="apply" src="images/night.jpeg" alt="lindon city at night">
-        <section class="msg">
-            <h2>Partnership. Education. Networking.</h2>
-            <p>We are the voice of business in Lindon city. We support retail and service businesses by creating opportunities for their growth and success through networking, education and advocacy. Additionally, we partner with large corporations to promote economic development and a vibrant business environment.</p>
-            <a class="shop" href="business.html">Apply Now</a>
-        </section>
-        <img class="weather" src="images/weather.webp" alt="weather">
-        <section class="weather-button">
-            <h2>Weather</h2>
-        </section>
+
+    <main>
+        <div class="home-grid">
+            <section class="business-card">
+                <img class="card-img" src="images/businesses.jpg" alt="local lindon business park">
+                <img class="icon" src="images/online-shop.png" alt="shop icon">
+                <h2>Great Businesses</h2>
+            </section>
+
+            <section class="activities-card">
+                <img class="card-img" src="images/walker_farms.jpg" alt="walker farms reception">
+                <img class="icon" src="images/field.png" alt="farm icon">
+                <h2>Amazing Activities</h2>
+            </section>
+
+            <section class="events-card">
+                <img class="card-img" src="images/parade.jpg" alt="lindon city parade">
+                <img class="icon" src="images/family.png" alt="trees icon">
+                <h2>Current Events</h2>
+            </section>
+        </div>
+
+        <div class="partner-grid">
+            <section class="partner">
+                <h2>Partnership. Education. Networking.</h2>
+                <p>We are the voice of business in Lindon city. We support retail and service businesses by creating opportunities for their growth and success through networking, education and advocacy. Additionally, we partner with large corporations to promote economic development and a vibrant business environment.</p>
+                <a class="button-link" href="business.html">Apply Now</a>
+            </section>
+            <img id="partner-image" src="images/night.webp" alt="lindon city at night">
+        </div>
+
+        <div class="weather-grid">
+            <section class="weather">
+                <h2>Weather</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos molestias tempora voluptatem magnam odio accusamus distinctio. Assumenda, adipisci unde nesciunt ex nemo asperiores, rem mollitia corrupti quam, quae at pariatur!</p>
+            </section>
+            <img id="weather-img" src="images/weather.webp" alt="weather">
+        </div>
+
     </main>
     <footer>
         <p>&copy; <span id="year"></span> WDD230-Web Frontend Development - Mckenzie Hess</p>
@@ -86,10 +103,10 @@
                 <img src="images/meta-logo.webp" alt="meta icon">
             </a>
             <a href="https://twitter.com" target="_blank">
-                <img src="images/x-logo.png" alt="x icon">
+                <img src="images/x-logo.webp" alt="x icon">
             </a>
             <a href="https://instagram.com" target="_blank">
-                <img src="images/instagram.png" alt="instagram icon">
+                <img src="images/instagram.webp" alt="instagram icon">
             </a>
         </div>
     </footer>
