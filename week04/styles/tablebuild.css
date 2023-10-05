@@ -1,0 +1,60 @@
+:root {
+    --back: #ABC4FF;
+    --back2: #C1D3FE;
+    --border: black;
+    --zebra: #EDF2FB;
+    --zebra2: #E2EAFC;
+    --bord: 1px solid #777;
+}
+
+tr:first-child th, .highlight {
+	background-color: var(--back);
+	color: var(--border);
+}
+
+table {
+    margin: 10px auto;
+    border: thin solid var(--border);
+}
+
+caption {
+    padding: 10px;
+    color: var(--border);
+    font-size: 100%;
+    caption-side: bottom;
+}
+
+th, td {
+    padding: 7px 15px;
+    border: 1 px solid var(--bord);
+}
+
+th {
+    background-color: var(--back2);
+}
+
+tbody tr:nth-child(even) {
+    background-color: var(--zebra2);
+}
+
+tbody tr:nth-child(odd) {
+    background-color: var(--zebra);
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.col {
+	padding: 10px;
+	border-top: var(--bord);
+	border-left: var(--bord);
+}
+
+.col:nth-child(even) {
+	border-right: var(--bord);
+}
+
+td {
+    text-align: center;
+}
