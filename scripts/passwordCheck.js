@@ -2,7 +2,7 @@ const p1 = document.querySelector("#password");
 const p2 = document.querySelector("#password2");
 const message = document.querySelector("#formmessage");
 
-kp2.addEventListener("focusout", checkSame);
+p2.addEventListener("focusout", checkSame);
 
 function checkSame() {
 	if (p1.value !== p2.value) {
@@ -16,4 +16,14 @@ function checkSame() {
 		p2.style.backgroundColor = "#fff";
 		p2.style.color = "#000";
 	}
+}
+
+var slider = document.getElementById("myRange");
+var output = document.getElementById("demo");
+output.innerHTML = slider.value; // Display the default slider value
+
+// Update the current slider value (each time you drag the slider handle)
+slider.oninput = function() {
+  output.innerHTML = this.value;
+  console.log(this);
 }
