@@ -40,7 +40,7 @@
 		padding: 1rem;
 	}
 	
-    /* || Header Styling */
+    	/* || Header Styling */
 	
 
 	header {
@@ -55,7 +55,7 @@
 		justify-content: center;
 	}
 
-    /* || Nav Bar Styling */
+    	/* || Nav Bar Styling */
 
 
 	.navigation {
@@ -116,7 +116,7 @@
         cursor: pointer;
     }
 
-	/* || Hero Image */
+		/* || Hero Image */
 
 
 	.hero {
@@ -148,7 +148,7 @@
         max-width: 100%;
     }
 
-	/* || Footer */
+		/* || Footer */
 
 
 	footer {

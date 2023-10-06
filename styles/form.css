@@ -1,0 +1,226 @@
+@media only screen and (min-width: 601px) {
+    
+    	/* || General Styling */
+    :root {
+        --background2: #e6f2ff;
+        --warning: red;
+        --background: black;
+    }
+    
+    body {
+        font-family: "Lato", sans-serif;
+    }
+
+    header {
+        text-align: center;
+        margin: 1rem auto;
+        padding: 1rem;
+        background-color: var(--background);
+        color: #ffffff;
+        display: flex;
+        flex-direction: row;
+        align-content: space-around;
+        max-width: 1000px;
+        justify-content: center;
+    }
+
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 2rem;
+        max-width: 1000px;
+        margin: 1rem auto;
+        padding: 1rem;
+        background-color: var(--background2);
+        color: var(--background);
+    }
+    main a {
+        color: #0000ee;
+    }
+
+    /* || Footer */
+
+
+    footer {
+        max-width: 1000px;
+        padding: 1rem;
+        background-color: var(--background2);
+        color: var(--background);
+        margin: 1rem auto;
+    }
+
+    section {
+        padding: 1rem;
+        background-color: #fff;
+    }
+    h1 {
+        padding: 50px;
+    }
+    h2 {
+        padding: 20px;
+        text-align: center;
+    }
+    ul {
+        list-style-type: none;
+    }
+    .navigation {
+        display: flex;
+    }
+    .navigation li {
+        display: block;
+        flex: 1 1 100%;
+    }
+    .navigation a {
+        text-align: center;
+        color: white;
+    }
+    #menu {
+        display: none;
+    }      
+    nav, h3 {
+        max-width: 1000px;
+        margin: 1rem auto;
+        padding: 1rem;
+        background-color: #0047a3;
+        color: white;
+    } 
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-content: space-around;
+        grid-gap: 5rem;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+    nav ul li a {
+        color: white;
+        display: block;
+        padding: 10px;
+        text-decoration: none;
+    }
+    nav ul li a:hover {
+        background-color: #efefef;
+        color: var(--background);
+    }
+    #mode {
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+        font-size: 3rem;
+        cursor: pointer;
+        color: var(--background);
+    }
+    .overlay {
+        position: absolute;
+        top: 1050px;
+        left: 500px;
+        background: rgba(57, 57, 57, 0.5);
+        color: white;
+        padding: 1.5rem;
+    }
+    .overlay label {
+        white-space: nowrap;
+        max-width: 100%;
+    }
+    .hero {
+        margin: 10px auto;
+        /* position: relative; */
+    }
+    .hero img {
+        width: 100%;
+        height: 100%;
+        max-width: 1000px;
+        object-fit: cover;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    .map {
+        position: relative;
+        margin: 1rem auto; 
+        max-width: 1000px;
+        width: 100%;      
+        height: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    .visits {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: #0047a3;
+        height: 50px;
+        width: 1000px;
+        color: white;
+        border-radius: 30px;
+        font-weight: 700;
+        font-size: 25px;
+        margin-top: 10px;
+    }
+
+        /* || Form */
+
+    form fieldset {
+        margin: 2em 0;
+        border: 1px solid #445ba9;
+        border-radius: 10px;
+        padding: .5rem 2%;
+    }
+    form legend {
+        color: #445ba9;
+        margin: 0 1rem;
+        padding: 0 .5rem;
+    }
+    form label.top, form div {
+        display: block;
+        padding-top: 1rem;
+        color: var(--background);
+        font-size: .8rem;
+    }
+    form label.top input, form label.top select {
+        -webkit-appearance: none;
+        display: block;
+        font-size: 1rem;
+        border: solid 1px #999;
+        border-radius: 4px;
+        padding: .75rem;
+        color: #555;
+        width: 100%;
+        max-width: 20rem;
+        background-color: rgba(0,0,0,0.1);
+    }
+    #password:invalid {
+        background-color: #fff0f3;
+        animation: shaketext 500ms;
+    }
+
+    form input.submitBtn {
+        border: none;
+        background-color: #5ac2ef;
+        color: white;
+        border-radius: 1rem;
+        padding: .75rem 1.5rem;
+        margin: 0 0 2rem 2%;
+        width: 96%;
+        max-width: 20rem;
+    }
+
+    form label.top input:required {
+        border-left: var(--warning) solid 6px;
+    }
+    form label.top input:required {
+        border-left: #499E6E solid 6px;
+    }
+
+    #formmessage {
+        visibility: none;
+        margin: 10px;
+        padding: 0.5rem;
+        color: var(--warning);
+    }
+}
