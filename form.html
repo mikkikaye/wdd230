@@ -45,14 +45,14 @@
             <div id="formmessage"></div>
             <fieldset>
                 <legend>Applicant Information</legend>
-                <label class="top">Username* <input type="text" name="username" required></label>
+                <label class="top">Username* <input type="text" name="username" required autocomplete="username"></label>
                 <label class="top" id="password">Password* <input type="password" name="password" pattern="[A-Za-z0-9]{8,15}" required placeholder="At least 8 letters or numbers long."></label>
                 <label class="top" id="password2">Re-enter Password <input type="password" name="password" required></label>
 
             </fieldset>
             <fieldset>
-                <label class="top">Please enter a valid email address* <input type="email" name="email" pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" placeholder="someone@gmail.com" required></label>
-                <label class="top">Please select a rating from 1 - 10: <input type="range" min="1" max="10" class="slider" id="myRange"></label><div id="demo"></div>
+                <label class="top">Please enter a valid email address* <input type="email" name="email" pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" placeholder="someone@gmail.com" required autocomplete="username"></label>
+                <label class="top">Please select a rating from 1 - 10: <input type="range" min="1" max="10" class="slider" id="myRange"></label><div id="value"></div>
             </fieldset>
             <input type="submit" value="Join Program" class="submitBtn">
         </form>
@@ -69,7 +69,7 @@
     <script src="scripts/getDates.js"></script>
     <script src="scripts/hamburgerMenu.js"></script>
     <script src="scripts/darkMode.js"></script>
-    <script src="scripts/visitorCounter.js"></script>
+    <!-- <script src="scripts/visitorCounter.js"></script> -->
     <script src="scripts/passwordCheck.js"></script>
 </body>
 </html>
