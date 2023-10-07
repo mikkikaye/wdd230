@@ -98,7 +98,6 @@
         text-align: center;
 
     }
-
     #hero-img {
         /* max-width: 1600px; */
         display: block;
@@ -114,18 +113,20 @@
         /* margin-top: 170px;
         padding-bottom: 195px; */
     }
-
     .home-slogan {
         /* padding-top: 200px; */
         font-family: Lora, serif;
         font-size: 1.5em;
         /* margin: 0; */
     }
+    .mobile-title {
+        visibility: hidden;
+    }
+
     .button-box {
         /* padding-top: 100px; */
         text-align: center;
     }
-
     .button-link {
         background-color: white;
         color: black;
@@ -136,7 +137,6 @@
         /* margin-top: 50px; */
         border-radius: 5px;
     }
-
     .button-link:hover {
         color: #616161;
     }
