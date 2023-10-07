@@ -177,7 +177,7 @@
     .partner-grid {
         display: block;
         grid-template-rows: repeat(9, 50px); */
-        text-align: center;
+        /* text-align: center; */
         padding: 10px;
     }
 
