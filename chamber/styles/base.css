@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora&family=Cabin:ital,wght@0,400;0,700;1,400&display=swap');
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 499px) {
 
     /* || General Styling ||*/
     
@@ -38,7 +38,7 @@
         text-align: center;
         margin: auto;
 		padding-top: 1rem;
-        background-color: #758397;
+        background-color: #637792;
 
     }
 
@@ -81,7 +81,7 @@
 		font-weight: 700;
 		text-decoration: none;
 		/* padding: .5rem .75rem; */
-		background-color: #758397;
+		background-color: #637792;
 		color: #000;
 	}
 	#menu::before {
@@ -134,7 +134,7 @@
     }
 
     .button-link {
-        background-color: #758397;
+        background-color: #637792;
         color: white;
         text-decoration: none;
         font-family: Cabin, Arial, sans-serif;
@@ -176,8 +176,7 @@
 
     .partner-grid {
         display: block;
-        grid-template-rows: repeat(9, 50px); */
-        /* text-align: center; */
+        grid-template-rows: repeat(9, 50px);
         padding: 10px;
     }
 
@@ -226,7 +225,7 @@
     /* || Footer ||*/
 
     footer {
-        background-color: #475262;
+        background-color: #637792;
         color: white;
         font-family: Cabin, Arial, sans-serif;
         display: flex;
@@ -307,7 +306,7 @@
 
     form fieldset {
         margin: 1em 1em;
-        border: 1px solid #758397;
+        border: 1px solid #637792;
         border-radius: 10px;
         font-family: Lato, sans-serif;
         font-size: 1em;
@@ -363,7 +362,7 @@
     }
 
     form input.submitBtn {
-        border: 1px solid #758397;
+        border: 1px solid #637792;
         background-color: #84736D;
         color: white;
         border-radius: 4px;
