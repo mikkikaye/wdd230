@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mckenzie Hess - WDD 230 - Lindon City Chamber of Commerce</title>
+    <link rel="icon" href="favicon.ico">
+    <meta name="description" content="This Chamber of Commerce page is for WDD 230 - Web Frontend Development.">
+    <meta name="author" content="Mckenzie Hess">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta property="og:title" content="WDD 230 - Web Frontend Development">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://mikkikaye.github.io/wdd230/chamber/index.html">
+    <meta property="og:image" content="https://media.rainpos.com/442/lindon.jpg">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href ="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <a href="index.html">
+            <img class="logo" src="images/chamber-logo-small.webp" alt="Lindon City Chamber of Commerce Logo">
+        </a>
+        <a id="menu" href="#"></a>
+        <nav>
+            <ul class="navigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="business.html">Member Directory</a></li>
+                <li><a href="calendar.html">View Calendar</a></li>
+                <li><a href="discover.html">Discover</a></li>
+            </ul>
+        </nav>
+            
+    </header>
+    
+
+    <div >
+        <picture>
+            <source srcset="images/lindon-smaller.webp" media="(max-width: 600px)">
+            <img id="hero-img" src="images/lindon.webp" alt="lindon city building with mountains" width="1140" height="400">
+        </picture>
+        <section id="hero">
+            <div class="hero-small">
+                <h1 class="home-title">Lindon City Chamber of Commerce</h1>
+                <h4 class="home-slogan">A Little Bit of Country</h4>
+                <div class="button-box">
+                    <a class="button-link" href="calendar.html">View Current Events</a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <main>
+        <div class="join-grid">
+            <form class="application" method="get" action="thankyou.html">
+                <fieldset>
+                    <legend>Application Form</legend>
+                    <label for="information" class="top">First Name* <input type="fname" id="information" name="fname" required autocomplete="name" id="box"</label>
+                    <label for="information" class="top">Last Name* <input type="lname" id="information1" name="lname" required autocomplete="family-name"</label>
+                    <label for="information" class="top">Title/Position <input type="text" id="information2" name="title" pattern="[A-Z\-\s]{7,}"</label>
+                    <label for="information" class="top">Email Address* <input type="email" id="information3" name="email" placeholder="someone@gmail.com" required autocomplete="email"</label>
+                    <label for="information" class="top">Mobile Number* <input type="tel" id="information4" name="phone" placeholder="1234565123" required></label> 
+                    <label for="information" class="top">Business/Organization Name*<input id="information5" type="text" name="business" required></label>
+                    <label for="information" class="top">Description of Business/Organization<input type="text" name="description"</label>
+                    <label class="#"><input type="hidden" name="timestamp"></label>
+                </fieldset>
+                <fieldset>
+                    <legend>Membership Level</legend>
+                    <div class="radio"><label for="radioOption1">Non-Profit Membership<input type="radio" id="radioOption1" name="membership" value="non-profit membership"></label></div>
+                    <div class="radio"><label for="radioOption2">Bronze Membership<input type="radio" id="radioOption2" name="membership" value="Bronze Membership"></label></div>
+                    <div class="radio"><label for="radioOption3">Silver Membership<input type="radio" id="radioOption3" name="membership" value="Silver Membership"></label></div>
+                    <div class="radio"><label for="radioOption4">Gold Membership<input type="radio" id="radioOption4" name="membership" value="Gold Membership"></label></div>
+                </fieldset>
+                <input type="submit" value="Submit My Application" class="submitBtn">
+            </form>
+            <section class="benefits-grid membership">
+                <fieldset>
+                <legend>Member Application Fee</legend>
+                    <p>$0 - Non-Profit Membership Fees</p>
+                    <p>$10 - Bronze Membership Fees</p>
+                    <p>$20 - Silver Membership Fees</p>
+                    <p>$30 - Gold Membership Fees</p>
+                </fieldset>
+                <fieldset>
+                    <legend>Non-Profit Member Benefits</legend>
+                    <ul>
+                        <li>Access to the Website</li>
+                        <li>Organization Listed in Member Directory</li>
+                        <li>Meeting Attendance - NO Voting Rights</li>
+                    </ul>
+                </fieldset>
+                <fieldset>
+                    <legend>Bronze Member Benefits</legend>
+                    <ul>
+                        <li>Access to the Website</li>
+                        <li>Organization Listed in Member Directory</li>
+                        <li>Meeting Attendance - Voting Rights</li>
+                    </ul>
+                </fieldset>
+                <fieldset>
+                    <legend>Silver Member Benefits</legend>
+                    <ul>
+                        <li>Access to the Website</li>
+                        <li>Organization Listed in Member Directory</li>
+                        <li>Meeting Attendance - Voting Rights</li>
+                        <li>Free Advertising</li>
+                        <li>One Free, Sponsered Event</li>
+                    </ul>
+                </fieldset>
+                <fieldset>
+                    <legend>Gold Member Benefits</legend>
+                    <ul>
+                        <li>Access to the Website</li>
+                        <li>Organization Listed in Member Directory</li>
+                        <li>Meeting Attendance - Voting Rights</li>
+                        <li>Free Advertising</li>
+                        <li>Three Free, Sponsered Events</li>
+                        <li>Business Spotlight on Website</li>
+                    </ul>
+                </fieldset>
+                
+            </section>
+        </div>
+
+
+        
+    </main>
+    <footer>
+        <p>&copy; <span id="year"></span> WDD230-Web Frontend Development - Mckenzie Hess</p>
+        <p id="lastModified"></p>
+        <p><a href="chamber-site-plan.html">Site Plan</a></p>
+        <p><a href="about.html">About</a></p>
+        <div class="social">
+            <a href="https://facebook.com" target="_blank">
+                <img src="images/meta-logo.webp" alt="meta icon">
+            </a>
+            <a href="https://twitter.com" target="_blank">
+                <img src="images/x-logo.webp" alt="x icon">
+            </a>
+            <a href="https://instagram.com" target="_blank">
+                <img src="images/instagram.webp" alt="instagram icon">
+            </a>
+        </div>
+    </footer>
+    <script src="scripts/lastModifiedDate.js"></script>
+    <script src="scripts/hamburgerMenu.js"></script>
+</body>
+</html>
