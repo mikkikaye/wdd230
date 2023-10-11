@@ -1,0 +1,98 @@
+{
+    "weeks": [
+        {
+            "week": "Week 1",
+            "links": [
+                {
+                "url": "week01/holygrail.html",
+                "title": "Layout"
+                },
+                {
+                    "url": "week01/media-query.html",
+                    "title": "Media Query"
+                },
+                {
+                    "url": "https://codepen.io/Mckenzie-Hess/pen/ZEVrejq",
+                    "title": "JS Pen"
+                }
+
+            ]
+        },
+        {
+            "week": "Week 2",
+            "links": [
+                {
+                "url": "week02/design.html",
+                "title": "Web Design Principles"
+                },
+                {
+                    "url": "https://codepen.io/Mckenzie-Hess/pen/ZEVrejq",
+                    "title": "Hamburger"
+                },
+                {
+                    "url": "week02/bom.html",
+                    "title": "BOM"
+                }
+            ]
+        },
+        {
+            "week": "Week 3",
+            "links": [
+                {
+                "url": "week03/images/landscape.webp",
+                "title": "WebP"
+                },
+                {
+                    "url": "week03/responsive-images.html",
+                    "title": "Responsive Images"
+                },
+                {
+                    "url": "week03/bom.html",
+                    "title": "Web Storate API"
+                }
+            ]
+        },
+        {
+            "week": "Week 4",
+            "links": [
+                {
+                "url": "https://codepen.io/Mckenzie-Hess/pen/gOZBjYO",
+                "title": "Pseudo-Classes"
+                },
+                {
+                    "url": "week04/images/week4.png",
+                    "title": "Combinators"
+                },
+                {
+                    "url": "week04/tablebuild.html",
+                    "title": "Tables"
+                },
+                {
+                    "url": "week04/index.html",
+                    "title": "Form Design"
+                }
+            ]
+        },
+        {
+            "week": "Week 5",
+            "links": [
+                {
+                "url": "https://codepen.io/Mckenzie-Hess/pen/JjwxNvb",
+                "title": "Pseudo-Elements"
+                },
+                {
+                    "url": "week05/new-ward-members.json",
+                    "title": "JSON Practice"
+                },
+                {
+                    "url": "week05/prophets.html",
+                    "title": "Fetch APIs"
+                },
+                {
+                    "url": "week05/weather.html",
+                    "title": "Weather API"
+                }
+            ]
+        }
+    ]
+}

@@ -150,4 +150,7 @@
         font-size: 25px;
         margin-top: 10px;
     }
+    figure {
+        text-align: center;
+    }
 }
