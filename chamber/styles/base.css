@@ -273,7 +273,11 @@
         text-align: center;
         margin-top: 50px;
     }
-
+    #visit-message {
+        font-family: Lato;
+        font-size: 2rem;
+        font-weight: bold;
+    }
     .info {
         padding: 10px;
         /* grid-column: 1; */
