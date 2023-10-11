@@ -1,0 +1,1 @@
+const power = `${supers.members[2].powers[1]}`;
