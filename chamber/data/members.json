@@ -1,0 +1,67 @@
+{
+    "members": [
+        {
+            "name": "Kids Village",
+            "address": "1641 N State St, Orem, UT 84057",
+            "phone-number": "801-235-9999",
+            "url": "kidsvillage.com",
+            "icon": "images/logo.webp",
+            "membership-level": "Bronze",
+            "miscellaneous": "Preschool"
+        },
+        {
+            "name": "Swig",
+            "address": "200 N State St, Lindon, UT 84042",
+            "phone-number": "385-330-1880",
+            "url": "swigdrinks.com",
+            "icon": "images/logo.webp",
+            "membership-level": "Silver",
+            "miscellaneous": "Drink & Treats"
+        },
+        {
+            "name": "Kneaders Bakery & Cafe",
+            "address": "1960 N State St, Orem, UT 84057",
+            "phone-number": "801-764-9451",
+            "url": "kneaders.com",
+            "icon": "images/logo.webp",
+            "membership-level": "Gold",
+            "miscellaneous": "Cafe"
+        },
+        {
+            "name": "Airborne Lindon",
+            "address": "635 N 1700 W #100, Lindon, UT 84042",
+            "phone-number": "801-854-5150",
+            "url": "airbornelindon.com",
+            "icon": "images/logo.webp",
+            "membership-level": "Silver",
+            "miscellaneous": "Trampoline Park"
+        },
+        {
+            "name": "ARTISAN HAIR SALON AND SPA",
+            "address": "230 N STATE S, Lindon, UT 84042",
+            "phone-number": "801-796-8877",
+            "url": "artisansalonlindon.com",
+            "icon": "images/logo.webp",
+            "membership-level": "Gold",
+            "miscellaneous": "Hair Salon and Spa"
+        },
+        {
+            "name": "Walmart Supercenter",
+            "address": "585 N State St, Lindon, UT 84042",
+            "phone-number": "801-785-7683",
+            "url": "walmart.com",
+            "icon": "images/logo.webp",
+            "membership-level": "Gold",
+            "miscellaneous": "Grocery Store"
+        },
+        {
+            "name": "Summit Harley-Davidson",
+            "address": "555 S Geneva Rd, Lindon, UT 84042",
+            "phone-number": "385-203-8665",
+            "url": "summitharley.com",
+            "icon": "images/logo.webp",
+            "membership-level": "Bronze",
+            "miscellaneous": "Motorcycle Store"
+        }
+    ]
+}
