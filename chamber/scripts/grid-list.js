@@ -10,7 +10,7 @@ startPage();
 // List View
 function listView() {
     grid.style.display = "none";
-	list.style.display = "grid";
+	  list.style.display = "grid";
   }
 
 // Grid View

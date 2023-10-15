@@ -382,23 +382,32 @@
 
     /* || Directory List ||*/
 
-    #grid {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-gap: 10px;
-        text-align: left;
+    .memberDataGrid {
+        display: block;
+        text-align: center;
+        padding-top: 25px;
     }
-    
-    .col1 {
-        grid-column: 1;
-        width: 100%
+    #btnContainer {
+        display: none;
     }
-    .col2 {
-        grid-column: 2;
-        width: 100%
+    .large-header {
+        font-family: Lora;
+        text-align: center;
     }
-    .col3 {
-        grid-column: 3;
-        width: 100%
+    article p {
+        margin: 0;
+        font-family: Lato;
+        font-size: 1.25em;
     }
+    article {
+        padding-bottom: 40px;
+    }
+    article a {
+        font-family: Lato;
+        text-decoration: none;
+        font-size: 1.25em;
+    }
+
+
+
 }
