@@ -203,23 +203,33 @@
     .weather-grid {
         display: flex;
         flex-direction: column;
-        text-align: left;
+        text-align: center;
         padding: 10px;
     }
     .weather {
         background-color: #C7D9F2;
         font-family: Cabin, Arial, sans-serif;
         line-height: 1.7em;
-        padding: 35px;
+        padding: 15px;
         color: black;
         font-size: .8em;
-        padding-bottom: 15px;
-        border-radius: 5px;
+        border-radius: 8px;
     }
 
     #weather-img {
         display: none;
     }    
+    h3{
+        font-family: Lora;
+    }
+    figure {
+        margin: 0;
+        padding-bottom: 20px;
+    }
+    .date {
+        margin: 0;
+        padding-top: 10px;
+    }
         
 
     /* || Footer ||*/

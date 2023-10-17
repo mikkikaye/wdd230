@@ -84,8 +84,18 @@
 
         <div class="weather-grid">
             <section class="weather">
-                <h2>Weather</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos molestias tempora voluptatem magnam odio accusamus distinctio. Assumenda, adipisci unde nesciunt ex nemo asperiores, rem mollitia corrupti quam, quae at pariatur!</p>
+                <h3>Weather</h3>
+                <div>
+                    <p>The current temperature in Lindon, Utah is <span id="current-temp"></span>.</p>
+                    <figure>
+                        <img id="weather-icon" src="#" alt="#">
+                        <figcaption></figcaption>
+                    </figure>
+                </div>
+                <div id="tempDiv">
+                    <h3>3-day Temperature Forecast</h3>
+                    <p class="date"><span></span></p>
+                </div>
             </section>
             <img id="weather-img" src="images/weather.webp" alt="weather">
         </div>
@@ -110,5 +120,7 @@
     </footer>
     <script src="scripts/lastModifiedDate.js"></script>
     <script src="scripts/hamburgerMenu.js"></script>
+    <script src="scripts/weather.js"></script>
+    <script src="scripts/tempForecast.js"></script>
 </body>
 </html>
