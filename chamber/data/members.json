@@ -16,7 +16,8 @@
             "url": "swigdrinks.com",
             "icon": "images/swig.webp",
             "membership": "Silver",
-            "miscellaneous": "Drink & Treats"
+            "miscellaneous": "Drink & Treats",
+            "spotlight": "Swig is a vibrant beverage and treats destination that delights taste buds with a wide range of creative and refreshing drink options, offering a flavorful experience for all."
         },
         {
             "name": "Kneaders Bakery & Cafe",
@@ -25,7 +26,8 @@
             "url": "kneaders.com",
             "icon": "images/kneaders.webp",
             "membership": "Gold",
-            "miscellaneous": "Cafe"
+            "miscellaneous": "Cafe",
+            "spotlight": "Kneaders Bakery & Cafe is a gold-standard culinary haven where artisanal bread and delectable cafe fare blend seamlessly, crafting an unforgettable dining experience."
         },
         {
             "name": "Airborne Lindon",
@@ -34,16 +36,18 @@
             "url": "airbornelindon.com",
             "icon": "images/airborne.webp",
             "membership": "Silver",
-            "miscellaneous": "Trampoline Park"
+            "miscellaneous": "Trampoline Park",
+            "spotlight": "Airborne Trampoline Park is a thrilling and gravity-defying playground where you can soar through the air, bounce to new heights, and experience the exhilaration of trampoline-based fun."
         },
         {
-            "name": "ARTISAN HAIR SALON AND SPA",
+            "name": "Artisan Hair Salon and Spa",
             "address": "230 N STATE S, Lindon, UT 84042",
             "number": "801-796-8877",
             "url": "artisansalonlindon.com",
             "icon": "images/artisan1.webp",
             "membership": "Gold",
-            "miscellaneous": "Hair Salon and Spa"
+            "miscellaneous": "Hair Salon and Spa",
+            "spotlight": "Artisan Hair Salon and Spa is a sanctuary of beauty and relaxation, where skilled stylists and spa professionals work their magic to rejuvenate your look and revitalize your senses."  
         },
         {
             "name": "Walmart Supercenter",
@@ -52,7 +56,8 @@
             "url": "walmart.com",
             "icon": "images/walmart.webp",
             "membership": "Gold",
-            "miscellaneous": "Grocery Store"
+            "miscellaneous": "Grocery Store",
+            "spotlight": "Walmart Supercenter is your one-stop shopping destination for unbeatable variety, everyday essentials, and great savings, all conveniently under one roof."
         },
         {
             "name": "Summit Harley-Davidson",

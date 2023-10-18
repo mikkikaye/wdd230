@@ -21,9 +21,12 @@
 </head>
 
 <body>
-    <header>
+    <header class="banner">
+        <h2>Come visit with us at our Chamber of Commerce Meet & Greet on Wednesday @ 7 pm!</h2>
+    </header>
+    <header class="header">
         <a href="index.html">
-            <img class="logo" src="images/chamber-logo-small.webp" alt="Lindon City Chamber of Commerce Logo">
+            <img class="logo" src="images/chamberLogo-large.webp" alt="Lindon City Chamber of Commerce Logo">
         </a>
         <a id="menu" href="#"></a>
         <nav>
@@ -38,23 +41,20 @@
     </header>
     
 
-    <div >
+    <div id="hero">
         <picture>
             <source srcset="images/lindon-smaller.webp" media="(max-width: 600px)">
             <img id="hero-img" src="images/lindon.webp" alt="lindon city building with mountains" width="1140" height="400">
         </picture>
-        <section id="hero">
-            <h1 class="home-title">Lindon City Chamber of Commerce</h1>
-            <h4 class="home-slogan">A Little Bit of Country</h4>
-            <div class="button-box">
-                <a class="button-link" href="calendar.html">View Current Events</a>
-            </div>
-        </section>
+        <div class="button-box">
+            <a class="button-link" href="calendar.html">View Current Events</a>
+        </div>
     </div>
 
     <main>
         <div class="home-grid">
-            <section class="business-card">
+            <h1>Member Spotlights</h1>
+            <!-- <section class="business-card">
                 <img class="card-img" src="images/businesses.webp" alt="local lindon business park">
                 <img class="icon" src="images/online-shop.png" alt="shop icon">
                 <h2>Great Businesses</h2>
@@ -70,7 +70,7 @@
                 <img class="card-img" src="images/parade.webp" alt="lindon city parade">
                 <img class="icon" src="images/family.png" alt="trees icon">
                 <h2>Current Events</h2>
-            </section>
+            </section> -->
         </div>
 
         <div class="partner-grid">
@@ -122,5 +122,6 @@
     <script src="scripts/hamburgerMenu.js"></script>
     <script src="scripts/weather.js"></script>
     <script src="scripts/tempForecast.js"></script>
+    <script src="scripts/spotlights.js"></script>
 </body>
 </html>

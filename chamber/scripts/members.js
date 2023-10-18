@@ -23,7 +23,7 @@ const displayMembers = (members) => {
         let address = document.createElement("p");
         let membership = document.createElement("p");
         let website = document.createElement("a");
-        businessName.textContent = `${member.businessName}`;
+        businessName.textContent = `${member.name}`;
         phoneNumber.textContent = `${member.number}`;
         address.textContent = `${member.address}`;
         membership.textContent = `${member.membership}`;
