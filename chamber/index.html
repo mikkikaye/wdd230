@@ -21,10 +21,13 @@
 </head>
 
 <body>
-    <header class="banner">
-        <h2>Come visit with us at our Chamber of Commerce Meet & Greet on Wednesday @ 7 pm!</h2>
-    </header>
-    <header class="header">
+    <div class="dismissible dismissible-info" data-component = "dismissable-item" data-type = "info" data-value = "Come to our Chamber of Commerce Meet & Greet on Wednesday @ 7 pm!"
+        <span>
+            <strong>Come to our Chamber of Commerce Meet & Greet on Wednesday @ 7 pm!</strong>
+            <button type="button" class="close">❌</button>
+        </span>
+    </div>
+        <header class="header">
         <a href="index.html">
             <img class="logo" src="images/chamberLogo-large.webp" alt="Lindon City Chamber of Commerce Logo">
         </a>
@@ -32,8 +35,8 @@
         <nav>
             <ul class="navigation">
                 <li><a href="index.html">Home</a></li>
-                <li><a href="business.html">Member Directory</a></li>
-                <li><a href="calendar.html">View Calendar</a></li>
+                <li><a href="directory.html">Member Directory</a></li>
+                <li><a href="join.html">Join the Chamber</a></li>
                 <li><a href="discover.html">Discover</a></li>
             </ul>
         </nav>
@@ -52,39 +55,21 @@
     </div>
 
     <main>
-        <div class="home-grid">
-            <h1>Member Spotlights</h1>
-            <!-- <section class="business-card">
-                <img class="card-img" src="images/businesses.webp" alt="local lindon business park">
-                <img class="icon" src="images/online-shop.png" alt="shop icon">
-                <h2>Great Businesses</h2>
-            </section>
+        <h1>Member Spotlights</h1>
+        <div class="home-grid" id="home-grid"></div>
 
-            <section class="activities-card">
-                <img class="card-img" src="images/walker_farms.webp" alt="walker farms reception">
-                <img class="icon" src="images/field.png" alt="farm icon">
-                <h2>Amazing Activities</h2>
-            </section>
-
-            <section class="events-card">
-                <img class="card-img" src="images/parade.webp" alt="lindon city parade">
-                <img class="icon" src="images/family.png" alt="trees icon">
-                <h2>Current Events</h2>
-            </section> -->
-        </div>
-
-        <div class="partner-grid">
+        <!-- <div class="partner-grid">
             <section class="partner">
                 <h2>Partnership. Education. Networking.</h2>
                 <p>We are the voice of business in Lindon city. We support retail and service businesses by creating opportunities for their growth and success through networking, education and advocacy. Additionally, we partner with large corporations to promote economic development and a vibrant business environment.</p>
                 <a class="button-link" href="join.html">Apply Now</a>
             </section>
-            <img id="partner-image" src="images/night.webp" alt="lindon city at night">
-        </div>
-
+        </div> -->
+        <h1>Lindon at a Glance</h1>
         <div class="weather-grid">
+            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48657.768046051555!2d-111.75985152421438!3d40.339894614345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x874d84ff805c5c5d%3A0xbb675792ea6a1404!2sLindon%2C%20UT!5e0!3m2!1sen!2sus!4v1697674192608!5m2!1sen!2sus" width="500" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             <section class="weather">
-                <h3>Weather</h3>
+                <h3>Lindon, UT Weather Forecast</h3>
                 <div>
                     <p>The current temperature in Lindon, Utah is <span id="current-temp"></span>.</p>
                     <figure>
@@ -94,10 +79,9 @@
                 </div>
                 <div id="tempDiv">
                     <h3>3-day Temperature Forecast</h3>
-                    <p class="date"><span></span></p>
+                    <p class="date"></p>
                 </div>
             </section>
-            <img id="weather-img" src="images/weather.webp" alt="weather">
         </div>
 
     </main>
@@ -105,7 +89,6 @@
         <p>&copy; <span id="year"></span> WDD230-Web Frontend Development - Mckenzie Hess</p>
         <p id="lastModified"></p>
         <p><a href="chamber-site-plan.html">Site Plan</a></p>
-        <p><a href="about.html">About</a></p>
         <div class="social">
             <a href="https://facebook.com" target="_blank">
                 <img src="images/meta-logo.webp" alt="meta icon">
@@ -123,5 +106,6 @@
     <script src="scripts/weather.js"></script>
     <script src="scripts/tempForecast.js"></script>
     <script src="scripts/spotlights.js"></script>
+    <script src="scripts/banner.js"></script>
 </body>
 </html>

@@ -4,4 +4,5 @@ year.textContent = currentYear;
 
 let text = document.lastModified;
 const date = new Date(document.lastModified);
-document.getElementById("lastModified").textContent= "Last Modified: " + date;
+const formattedDate = date.toLocaleDateString('en-US');
+document.getElementById("lastModified").textContent= "Last Modified: " + formattedDate;

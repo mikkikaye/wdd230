@@ -25,9 +25,10 @@ function getSilverGold(members) {
     return upperArray;
 }
 
-// const randomElement = array[Math.floor(Math.random() * array.length)];
 
 const displayMembers = (members) => {
+    let column = 0;
+    const cols = ["business-card", "activities-card", "events-card"];
     getSilverGold(members).forEach((member) => {
         let memberSection = document.createElement("section");
         let sectionImage = document.createElement("img");
@@ -37,24 +38,31 @@ const displayMembers = (members) => {
         let sectionH3 = document.createElement("h3");
         console.log(member);
 
+        memberSection.setAttribute("class", cols[column % 3]);
+
+        // memberSection.sectionP.style.font-family = "Lato";
+
 
         sectionH2.textContent = `${member.name}`;
         sectionH3.textContent = `${member.miscellaneous}`;
         sectionP.textContent = `${member.spotlight}`;
         sectionWebsite.textContent = `${member.url}`;
+        sectionWebsite.setAttribute("href", `${member.url}`)
 
+        sectionImage.setAttribute("class", "card-img");
         sectionImage.setAttribute("src", `${member.icon}`);
         sectionImage.setAttribute("alt", `${member.miscellaneous}`);
         sectionImage.setAttribute("loading", "lazy");
         sectionImage.setAttribute("width", "250");
 
         memberSection.appendChild(sectionH2);
-        memberSection.appendChild(sectionH3);
         memberSection.appendChild(sectionImage);
+        memberSection.appendChild(sectionH3);
         memberSection.appendChild(sectionP);
         memberSection.appendChild(sectionWebsite);
         console.log(memberSection);
         memberSpotlights.appendChild(memberSection);
+        column++;
 
     });
 }

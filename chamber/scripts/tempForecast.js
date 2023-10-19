@@ -22,17 +22,22 @@ async function apiFetch() {
 
 apiFetch();
 
+const every8th = (arr) => arr.filter((e, i) => i % 8 === 8 - 1); 
+
+
 
 const displayTemps = (days) => {
     console.log(days);
-    days.slice(1,4).forEach((day) => {
+    every8th(days).slice(1,4).forEach((day) => {
         console.log(day);
         let tempForecast = document.createElement("section");
         let dayResults = document.createElement("p");
         let tempDay = document.createElement("span");
-        tempDay.textContent = `${day.main.temp} ° F`;
-        let dayOfWeek = document.createElement("p");
+        const longDay = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+        var dayNum = new Date(day.dt * 1000).getDay();
+        tempDay.textContent = `${longDay[dayNum - 1]}: ${day.main.temp} ° F`;
         tempForecast.appendChild(tempDay);
         forecast.appendChild(tempForecast);
+
     });
 }
