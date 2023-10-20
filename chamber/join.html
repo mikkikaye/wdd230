@@ -24,6 +24,7 @@
     <div class="banner">
         <button type="button" class="xbtn">❌</button>
     </div>
+
     <header class="header">
         <a href="index.html">
             <img class="logo" src="images/chamberLogo-large.webp" alt="Lindon City Chamber of Commerce Logo">
@@ -38,23 +39,6 @@
             </ul>
         </nav>
     </header>
-    
-
-    <div >
-        <picture>
-            <source srcset="images/lindon-smaller.webp" media="(max-width: 600px)">
-            <img id="hero-img" src="images/lindon.webp" alt="lindon city building with mountains" width="1140" height="400">
-        </picture>
-        <section id="hero">
-            <div class="hero-small">
-                <h1 class="home-title">Lindon Chamber of Commerce</h1>
-                <h4 class="home-slogan">A Little Bit of Country</h4>
-                <div class="button-box">
-                    <a class="button-link" href="calendar.html">View Current Events</a>
-                </div>
-            </div>
-        </section>
-    </div>
 
     <main>
         <div class="join-grid">
@@ -67,7 +51,6 @@
                     <label for="information4" class="top">Email Address* <input type="email" id="information4" name="email" placeholder="someone@gmail.com" required autocomplete="email"></label>
                     <label for="information5" class="top">Mobile Number* <input type="tel" id="information5" name="phone" placeholder="1234565123" required></label> 
                     <label for="information6" class="top">Business/Organization Name*<input id="information6" type="text" name="business" required></label>
-                    <!-- <label for="information7">Description of Business/Organization <input id="information7" type="area" name="description"></label> -->
                     <div class="top">Description of Business/Organization</div>
                     <textarea id="top" name="Description of Business/Organization" rows="4" cols="40"></textarea>
                     <label class="top"><input type="hidden" name="timestamp"></label>
@@ -82,12 +65,14 @@
                 <input type="submit" value="Submit My Application" class="submitBtn">
             </form>
             <section class="benefits-grid membership">
-                <fieldset>
+                <fieldset >
                 <legend>Member Application Fee</legend>
+                <section class="cost">
                     <p>$0 - Non-Profit Membership Fees</p>
                     <p>$10 - Bronze Membership Fees</p>
                     <p>$20 - Silver Membership Fees</p>
                     <p>$30 - Gold Membership Fees</p>
+                </section>
                 </fieldset>
                 <fieldset>
                     <legend>Non-Profit Member Benefits</legend>

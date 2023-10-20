@@ -9,6 +9,7 @@ async function getMemberData() {
     const data = await response.json();
     console.table(data);
     displayMembers(data.members);
+    displayMembersList(data.datasets);
 }
 
 getMemberData();
@@ -48,6 +49,27 @@ const displayMembers = (members) => {
 
 
     });
+
+    const displayMembersList = (datasets) => {
+        datasets.forEach((dataset) => {
+
+            let business = document.createElement("h2");
+            let info = document.createElement("p");
+            let websiteURL = document.createElement("a");
+            business.textContent = `${dataset.name}`;
+            info.textContent = `${dataset.miscellaneous} · ${dataset.number} · ${dataset.address} · ${dataset.website}`;
+    
+            websiteURL.setAttribute("href", `${dataset.url}`);
+    
+            business.setAttribute("class", headings[column % 7]);
+            info.setAttribute("class", infoList[column % 7]);
+    
+            memberDataList.appendChild(business);
+            memberDataList.appendChild(info);
+            memberDataList.appendChild(websiteURL);
+        });
+    };
+
 }
 
 
