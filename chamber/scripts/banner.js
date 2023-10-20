@@ -1,23 +1,20 @@
-var dismissibles = Array.prototype.slice.call(document.querySelectorAll('[data-component = "dismissible-item"]'));
-console.log(dismissibles);
-if (dismissibles.length) {
-    for (var i = 0; i < dismissibles.length; i++) {
-        var type = dismissibles[i].getAttribute('data-type'),
-            value = dismissibles[i].getAttribute("data-value");
-        new dismissibleItem(dismissibles[i], type, value);
-        console.log(dismissibleItem);
+
+const banner = document.querySelector('.banner')
+const xbtn = document.querySelector('.xbtn');
+const wd = new Date().getDay();
+
+
+xbtn.addEventListener('click', (e) => {
+	e.preventDefault();
+	banner.style.display = "none";
+});
+
+function displayBanner() {
+
+    if (wd >= 1 && wd <= 3){
+        banner.style.display = "none";
     }
-}
+};
 
-function dismissibleItem(el, type, value) {
-    var html = '<span>' + value + '<button-type = "button" class = "close">❌</button></span>';
+displayBanner();
 
-    el.classList.add('dismissible', 'dismissible-' + type);
-    el.innerHTML = html;
-    console.log(el);
-    var closeBtn = el.querySelector('.close');
-    closeBtn.addEventListener('click', function() {
-        el.style.display = 'none';
-        console.log(closeBtn);
-    });
-}

@@ -16,7 +16,7 @@ function listView() {
 // Grid View
 function gridView() {
     list.style.display = "none";
-	grid.style.display = "grid";
+	  grid.style.display = "grid";
   }
 
 var listBtn = document.querySelector(".btn");

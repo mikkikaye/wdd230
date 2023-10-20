@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mckenzie Hess - WDD 230 - Chamber of Commerce -Discover</title>
+    <title>Mckenzie Hess - WDD 230 - Chamber of Commerce - Discover</title>
     <link rel="icon" href="favicon.ico">
-    <meta name="description" content="This Chamber of Commerce Discovery page is for WDD 230 - Web Frontend Development.">
+    <meta name="description" content="Chamber of Commerce - Discover Page">
     <meta name="author" content="Mckenzie Hess">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta property="og:title" content="WDD 230 - Web Frontend Development">
@@ -17,30 +17,40 @@
     <link rel="stylesheet" href="styles/larger.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href ="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link href ="https://fonts.googleapis.com/css2?family=Lato&family=Lora&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <header>
+    <div class="banner">
+        <button type="button" class="xbtn">❌</button>
+    </div>
+    <header class="header">
         <a href="index.html">
-            <img class="logo" src="images/chamber-logo-small.webp" alt="Lindon City Chamber of Commerce Logo">
+            <img class="logo" src="images/chamberLogo-large.webp" alt="Lindon City Chamber of Commerce Logo">
         </a>
         <a id="menu" href="#"></a>
         <nav>
             <ul class="navigation">
                 <li><a href="index.html">Home</a></li>
-                <li><a href="business.html">Member Directory</a></li>
-                <li><a href="calendar.html">View Calendar</a></li>
-                <li><a href="discover.html">Discover</a></li>
+                <li><a href="directory.html">Member Directory</a></li>
+                <li><a href="join.html">Join the Chamber</a></li>
+                <li><a href="discover.html">Discover Lindon</a></li>
             </ul>
         </nav>
-            
     </header>
 
+    <div id="hero">
+        <picture>
+            <source srcset="images/temple-smaller.webp" media="(max-width: 600px)">
+            <img id="hero-img" src="images/temple.webp" alt="lindon temple" width="1140" height="469">
+        </picture>
+    </div>
+
     <main>
+        <span id="visit-message"></span>
         <div class="discovery-grid">
 
-            <span id="visit-message">Welcome</span>
+            
 
             <section class="info">
                 <img class="icon" src="images/linden.png" alt="tree icon">
