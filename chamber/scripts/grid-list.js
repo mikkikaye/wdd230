@@ -3,6 +3,7 @@ var list = document.getElementById("list-view");
 
 function startPage() {
 	list.style.display = "none";
+  grid.style.display = "grid";
 }
 
 startPage();

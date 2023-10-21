@@ -11,7 +11,7 @@ xbtn.addEventListener('click', (e) => {
 
 function displayBanner() {
 
-    if (wd >= 1 && wd <= 3){
+    if (wd < 1 || wd > 3){
         banner.style.display = "none";
     }
 };

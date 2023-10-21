@@ -33,9 +33,10 @@ const displayTemps = (days) => {
         let tempForecast = document.createElement("section");
         let dayResults = document.createElement("p");
         let tempDay = document.createElement("span");
-        const longDay = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+        const longDay = ['Saturday', 'Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'];
         var dayNum = new Date(day.dt * 1000).getDay();
-        tempDay.textContent = `${longDay[dayNum - 1]}: ${day.main.temp} ° F`;
+        console.log(dayNum);
+        tempDay.textContent = `${longDay[dayNum]}: ${day.main.temp} ° F`;
         tempForecast.appendChild(tempDay);
         forecast.appendChild(tempForecast);
 

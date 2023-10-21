@@ -1,6 +1,26 @@
 {
     "members": [
         {
+            "name": "Airborne Lindon",
+            "address": "635 N 1700 W #100, Lindon, UT 84042",
+            "number": "801-854-5150",
+            "url": "airbornelindon.com",
+            "icon": "images/airborne.webp",
+            "membership": "Silver",
+            "miscellaneous": "Trampoline Park",
+            "spotlight": "Airborne Trampoline Park is a thrilling and gravity-defying playground where you can soar through the air, bounce to new heights, and experience the exhilaration of trampoline-based fun."
+        },
+        {
+            "name": "Artisan Hair Salon and Spa",
+            "address": "230 N State S, Lindon, UT 84042",
+            "number": "801-796-8877",
+            "url": "artisansalonlindon.com",
+            "icon": "images/artisan1.webp",
+            "membership": "Gold",
+            "miscellaneous": "Hair Salon and Spa",
+            "spotlight": "Artisan Hair Salon and Spa is a sanctuary of beauty and relaxation, where skilled stylists and spa professionals work their magic to rejuvenate your look and revitalize your senses."  
+        },
+        {
             "name": "Kids Village",
             "address": "1641 N State St, Orem, UT 84057",
             "number": "801-235-9999",
@@ -8,16 +28,6 @@
             "icon": "images/kids-village.webp",
             "membership": "Bronze",
             "miscellaneous": "Preschool"
-        },
-        {
-            "name": "Swig",
-            "address": "200 N State St, Lindon, UT 84042",
-            "number": "385-330-1880",
-            "url": "swigdrinks.com",
-            "icon": "images/swig.webp",
-            "membership": "Silver",
-            "miscellaneous": "Drink & Treats",
-            "spotlight": "Swig is a vibrant beverage and treats destination that delights taste buds with a wide range of creative and refreshing drink options, offering a flavorful experience for all."
         },
         {
             "name": "Kneaders Bakery & Cafe",
@@ -30,24 +40,23 @@
             "spotlight": "Kneaders Bakery & Cafe is a gold-standard culinary haven where artisanal bread and delectable cafe fare blend seamlessly, crafting an unforgettable dining experience."
         },
         {
-            "name": "Airborne Lindon",
-            "address": "635 N 1700 W #100, Lindon, UT 84042",
-            "number": "801-854-5150",
-            "url": "airbornelindon.com",
-            "icon": "images/airborne.webp",
-            "membership": "Silver",
-            "miscellaneous": "Trampoline Park",
-            "spotlight": "Airborne Trampoline Park is a thrilling and gravity-defying playground where you can soar through the air, bounce to new heights, and experience the exhilaration of trampoline-based fun."
+            "name": "Summit Harley-Davidson",
+            "address": "555 S Geneva Rd, Lindon, UT 84042",
+            "number": "385-203-8665",
+            "url": "summitharley.com",
+            "icon": "images/harley.webp",
+            "membership": "Bronze",
+            "miscellaneous": "Motorcycle Store"
         },
         {
-            "name": "Artisan Hair Salon and Spa",
-            "address": "230 N STATE S, Lindon, UT 84042",
-            "number": "801-796-8877",
-            "url": "artisansalonlindon.com",
-            "icon": "images/artisan1.webp",
-            "membership": "Gold",
-            "miscellaneous": "Hair Salon and Spa",
-            "spotlight": "Artisan Hair Salon and Spa is a sanctuary of beauty and relaxation, where skilled stylists and spa professionals work their magic to rejuvenate your look and revitalize your senses."  
+            "name": "Swig",
+            "address": "200 N State St, Lindon, UT 84042",
+            "number": "385-330-1880",
+            "url": "swigdrinks.com",
+            "icon": "images/swig.webp",
+            "membership": "Silver",
+            "miscellaneous": "Drinks & Treats",
+            "spotlight": "Swig is a vibrant beverage and treats destination that delights taste buds with a wide range of creative and refreshing drink options, offering a flavorful experience for all."
         },
         {
             "name": "Walmart Supercenter",
@@ -58,15 +67,6 @@
             "membership": "Gold",
             "miscellaneous": "Grocery Store",
             "spotlight": "Walmart Supercenter is your one-stop shopping destination for unbeatable variety, everyday essentials, and great savings, all conveniently under one roof."
-        },
-        {
-            "name": "Summit Harley-Davidson",
-            "address": "555 S Geneva Rd, Lindon, UT 84042",
-            "number": "385-203-8665",
-            "url": "summitharley.com",
-            "icon": "images/harley.webp",
-            "membership": "Bronze",
-            "miscellaneous": "Motorcycle Store"
         }
     ]
 }

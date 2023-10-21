@@ -9,34 +9,37 @@ async function getMemberData() {
     const data = await response.json();
     console.table(data);
     displayMembers(data.members);
-    displayMembersList(data.datasets);
+    displayMembersList(data.members);
 }
 
 getMemberData();
 
 const displayMembers = (members) => {
+    let column = 0;
+    const cols = ["col1", "col2", "col3", "col4", "col5", "col6", "col7"];
     members.forEach((member) => {
+        let memberArt = document.createElement("article");
         let memberCard = document.createElement("section");
-        let businessName = document.createElement("h2");
         let logo = document.createElement("img");
         let description = document.createElement("p");
         let phoneNumber = document.createElement("p");
         let address = document.createElement("p");
         let membership = document.createElement("p");
         let website = document.createElement("a");
-        businessName.textContent = `${member.name}`;
         phoneNumber.textContent = `${member.number}`;
         address.textContent = `${member.address}`;
         membership.textContent = `${member.membership}`;
         description.textContent = `${member.miscellaneous}`;
-        website.textContent = `${member.website}`;
+        website.textContent = `${member.url}`;
 
         logo.setAttribute("src", `${member.icon}`);
         logo.setAttribute("alt", `${member.membership}`);
         logo.setAttribute("loading", "lazy");
         logo.setAttribute("width", "250");
 
-        memberCard.appendChild(businessName);
+        website.setAttribute("href", `${member.url}`);
+        memberArt.setAttribute("class", cols[column % 7]);
+
         memberCard.appendChild(logo);
         memberCard.appendChild(description);
         memberCard.appendChild(phoneNumber);
@@ -44,33 +47,37 @@ const displayMembers = (members) => {
         memberCard.appendChild(membership);
         memberCard.appendChild(website);
 
-        memberDataGrid.appendChild(memberCard);
-        memberDataList.appendChild(memberCard);
+        memberArt.appendChild(memberCard)
+        memberDataGrid.appendChild(memberArt);
 
-
+        column++;
     });
+}
 
     const displayMembersList = (datasets) => {
+        let column = 0;
+        const headings = ["headings1", "headings2", "headings3", "headings4", "headings5", "headings6", "headings7"];
+        const information = ["info1", "info2", "info3", "info4", "info5", "info6", "info7"];
         datasets.forEach((dataset) => {
 
             let business = document.createElement("h2");
             let info = document.createElement("p");
             let websiteURL = document.createElement("a");
+            websiteURL.textContent = `${dataset.url}`;
             business.textContent = `${dataset.name}`;
-            info.textContent = `${dataset.miscellaneous} · ${dataset.number} · ${dataset.address} · ${dataset.website}`;
+            info.textContent = `${dataset.miscellaneous} · ${dataset.number} · ${dataset.address} · ${dataset.url}`;
     
             websiteURL.setAttribute("href", `${dataset.url}`);
     
             business.setAttribute("class", headings[column % 7]);
-            info.setAttribute("class", infoList[column % 7]);
+            info.setAttribute("class", information[column % 7]);
     
             memberDataList.appendChild(business);
             memberDataList.appendChild(info);
-            memberDataList.appendChild(websiteURL);
+            // memberDataList.appendChild(websiteURL);
+            column++;
         });
     };
-
-}
 
 
 

@@ -32,7 +32,6 @@ const displayMembers = (members) => {
     getSilverGold(members).forEach((member) => {
         let memberSection = document.createElement("section");
         let sectionImage = document.createElement("img");
-        let sectionH2 = document.createElement("h2");
         let sectionP = document.createElement("p");
         let sectionWebsite = document.createElement("a");
         let sectionH3 = document.createElement("h3");
@@ -43,7 +42,6 @@ const displayMembers = (members) => {
         // memberSection.sectionP.style.font-family = "Lato";
 
 
-        sectionH2.textContent = `${member.name}`;
         sectionH3.textContent = `${member.miscellaneous}`;
         sectionP.textContent = `${member.spotlight}`;
         sectionWebsite.textContent = `${member.url}`;
@@ -55,7 +53,6 @@ const displayMembers = (members) => {
         sectionImage.setAttribute("loading", "lazy");
         sectionImage.setAttribute("width", "250");
 
-        memberSection.appendChild(sectionH2);
         memberSection.appendChild(sectionImage);
         memberSection.appendChild(sectionH3);
         memberSection.appendChild(sectionP);

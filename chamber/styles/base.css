@@ -1,30 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Lora&family=Cabin:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
 @media only screen and (max-width: 499px) {
 
-    /* || General Styling ||*/
+    /* |||| General Styling |||| */
     
     
     body {
-        background-color: #FEFEFE;
-        font-size: 18px;
+        background-color: #FFFBF9;
     }
 
-    h2 {
-        font-family: Lora, serif;
-        margin: 0;
+    a {
+        text-decoration: none;
     }
 
-    h3 {
-        font-family: Cabin, Arial;
-        margin: 0;
-    }
-
-    nav ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-    }
 
     img {
 		max-width: 100%;
@@ -33,29 +20,34 @@
 	}
     /* || Header & Nav Bar Styling ||*/
 
+    .banner{
+        display: none;
+    }
 
     header {
         text-align: center;
         margin: auto;
 		padding-top: 1rem;
-        background-color: #637792;
+        background-color: #538EB6;
 
     }
 
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
     .navigation {
-		list-style: none;
-		max-width: 500px;
+		max-width: 600px;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-content: space-around; 
         padding-bottom: 5px;
     }
-
     .navigation li {
 		display: none;
 	}
-
     nav a {
 		display: block;
 		/* padding: .75rem; */
@@ -81,7 +73,7 @@
 		font-weight: 700;
 		text-decoration: none;
 		/* padding: .5rem .75rem; */
-		background-color: #637792;
+		background-color: #538EB6;
 		color: #000;
 	}
 	#menu::before {
@@ -100,41 +92,12 @@
     
     /* || Hero Image ||*/
 
-
-    #hero {
-        margin: 10px auto;
-    }
-
-    #hero-img {
-        position: relative;
-        height: 100%;
-    }
-
-    .home-title {
-        color: black;
-        font-family: Lora, serif;
-        position: absolute;
-        text-align: center;
-        bottom: 470px;
-    }
-
-    .home-slogan {
-        visibility: hidden;
-    }
-
-    .mobile-title {
-        position: absolute;
-        bottom: 100px;
-        right: 0;
-        height: 100px;
-        white-space: nowrap;
-    }
     .button-box {
         text-align: center;
     }
 
     .button-link {
-        background-color: #637792;
+        background-color: #447306;
         color: white;
         text-decoration: none;
         font-family: Cabin, Arial, sans-serif;
@@ -147,80 +110,66 @@
         color: #616161;
     }
 
-    /* || 3 Cards ||*/
+    /* |||| Spotlights |||| */
 
-
+    h1 {
+        font-family: Merriweather;
+        font-size: 2em;
+        text-align: center;
+        margin: 0;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
     .home-grid {
+        padding-top: 10px;
         display: block;
+        text-align: center;
     }
 
     .business-card, .activities-card, .events-card  {
-        text-align: center;
         padding-left: 10px;
         padding-bottom: 10px;
         width: 90%;
+        font-family: Lato;
+        font-size: 1.25rem;
+        padding-bottom: 50px;
         
     }
 
     .card-img {
-        border: 10px solid #B5C889;
+        border: 5px solid #548F08;
         border-radius: 7px;
     }
 
-    .icon {
-        width: 40px;
-        padding-top: 10px; 
-    }
-    
-    /* || Partnership ||*/
 
-    .partner-grid {
-        display: block;
-        grid-template-rows: repeat(9, 50px);
-        padding: 10px;
-    }
-
-    .partner {
-        background-color: #2C302D;
-        font-family: Cabin, Arial, sans-serif;
-        line-height: 1.7em;
-        padding: 35px;
-        grid-column: 3/9;
-        grid-row: 1/8;
-        color: #FEFEFE;
-        font-size: .8em;
-        padding-bottom: 15px;
-        border-radius: 5px;
-    }
-
-    #partner-image {
-        display: none;
-    }
-
-
-    /* || Weather ||*/
+    /* |||| Weather |||| */
 
     .weather-grid {
         display: flex;
         flex-direction: column;
         text-align: center;
         padding: 10px;
-    }
-    .weather {
         background-color: #C7D9F2;
+        margin-top: 30px;
+    }
+
+    .weather {
+        
         font-family: Cabin, Arial, sans-serif;
         line-height: 1.7em;
         padding: 15px;
         color: black;
-        font-size: .8em;
         border-radius: 8px;
+        margin: 0;
     }
-
-    #weather-img {
+    .map {
         display: none;
-    }    
+    }
+    .mobile {
+        display: none;
+    }
     h3{
-        font-family: Lora;
+        font-family: Merriweather;
     }
     figure {
         margin: 0;
@@ -235,14 +184,13 @@
     /* || Footer ||*/
 
     footer {
-        background-color: #637792;
+        background-color: #538EB6;
         color: white;
-        font-family: Cabin, Arial, sans-serif;
+        font-family: Lato;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
-        margin-top: 20px;
     }
 
     footer a {
@@ -255,7 +203,7 @@
     }
 
     footer p {
-        font-size: .75em;
+        margin: 5px;
     }
 
     footer p a:hover {
@@ -273,40 +221,42 @@
 
 
     /* || Discovery - Main Images ||*/
-
+    .icon {
+        width: 40px;
+        padding-top: 10px; 
+    }
     .discovery-grid {
         display: flex;
         flex-direction: column;
-        /* grid-gap: 10px;
-        grid-template-columns: 30% 70%;
-        grid-template-rows: 5%; */
         text-align: center;
         margin-top: 50px;
     }
     #visit-message {
-        font-family: Lato;
+        font-family: Merriweather;
         font-size: 2rem;
         font-weight: bold;
     }
+    .message {
+        padding-top: 30px;
+        text-align: center;
+    }
     .info {
         padding: 10px;
-        /* grid-column: 1; */
+        font-family: Lato;
+        font-size: .8rem;
     }
 
     .lindon-img {
         width: 100%;
         height: 100%;
-        object-fit: cover;
         margin-left: auto;
         margin-right: auto;
         display: block;
     }
-    
-    
-    /* || Discovery - Sidebar ||*/
-
-    .sidebar {
-        background-color: #deebff;
+    .grid-align {
+        font-family: Merriweather;
+        font-size: 1.25rem;
+        font-weight: bold;
     }
 
 
@@ -375,7 +325,7 @@
 
     form input.submitBtn {
         border: 1px solid #637792;
-        background-color: #84736D;
+        background-color: #538EB6;
         color: white;
         border-radius: 4px;
         padding: .75rem 1.5rem;
@@ -383,11 +333,6 @@
         font-size: 1.15em;
         margin-top: 10px;
         margin-left: 70px;
-    }
-    /* || Join - Sidebar ||*/
-
-    .sidebar {
-        background-color: #deebff;
     }
 
     /* || Directory List ||*/
@@ -401,7 +346,7 @@
         display: none;
     }
     .large-header {
-        font-family: Lora;
+        font-family: Merriweather;
         text-align: center;
     }
     article p {
@@ -417,7 +362,4 @@
         text-decoration: none;
         font-size: 1.25em;
     }
-
-
-
 }

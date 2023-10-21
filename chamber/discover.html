@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="styles/larger.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href ="https://fonts.googleapis.com/css2?family=Lato&family=Lora&display=swap" rel="stylesheet">
+    <link href ="https://fonts.googleapis.com/css2?family=Lato&family=Merriweather&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -41,10 +41,12 @@
     </header>
 
     <main>
-        <span id="visit-message"></span>
-        <div class="discovery-grid">
 
-            
+        <div class="message">
+            <span id="visit-message"></span>
+        </div>
+
+        <div class="discovery-grid">
 
             <section class="info">
                 <img class="icon" src="images/linden.webp" alt="tree icon">
@@ -63,7 +65,6 @@
                 <h2>The median household income is $100,351.</h2>
                 <img class="icon" src="images/wagon.webp" alt="wagon icon">
                 <h2>Originally settled in 1861, Lindon began as pioneers moved into what was then the Lindon grazing land. The town was originally named "String Town" because of the way the houses were strung up and down the street between the towns of Orem and Pleasant Grove.</h2>
-
             </section>
             <section class="info">
                 <img class="icon" src="images/mountain.webp" alt="mountain icon">
@@ -85,34 +86,6 @@
                 <img class="icon" src="images/population.webp" alt="population icon">
                 <h2>Population is 11,100 people.</h2>
             </section>
-            <!-- <section class="info">
-                <img class="icon" src="images/population.webp" alt="population icon">
-                <h2>Population is 11,100 people.</h2>
-            </section> -->
-            <!-- <section class="info">
-                <img class="icon" src="images/pothole.webp" alt="pothole icon">
-                <h2>8 tons of asphalt was used to fill potholes last year.</h2>
-            </section> -->
-            <!-- <section class="info">
-                <img class="icon" src="images/ribbon.webp" alt="ribbon icon">
-                <h2>2018: Best Places in Utah to Raise a Family & 2017: Safest Cities in the State of Utah</h2>
-            </section> -->
-            <!-- <section class="info">
-                <img class="icon" src="images/veteran.webp" alt="veteran icon">
-                <h2>183 veterans call Lindon their home.</h2>
-            </section> -->
-            <!-- <section class="info">
-                <img class="icon" src="images/wagon.webp" alt="wagon icon">
-                <h2>Originally settled in 1861, Lindon began as pioneers moved into what was then the Lindon grazing land. The town was originally named "String Town" because of the way the houses were strung up and down the street between the towns of Orem and Pleasant Grove.</h2>
-            </section> -->
-            <!-- <section class="info">
-                <img class="icon" src="images/truck.webp" alt="snowplow icon">
-                <h2>Lindon owns and operates 6 snowplows.</h2>
-            </section>
-            <section class="info">
-                <img class="icon" src="images/sprinkler.webp" alt="sprinkler icon">
-                <h2>Residents used 1.1 billion gallons of secondary water last year.</h2>
-            </section> -->
 
             <div class="grid-align img-1">
                 <picture>
@@ -156,27 +129,12 @@
                 </picture>
                 <p>Lindon Aquatics Center</p>
             </div>
-            <!-- <div class="grid-align img-7">
-                <picture>
-                    <source srcset="images/harley-davidson-small.webp" media="(max-width: 499px)">
-                    <img class="lindon-img" src="images/harley-davidson-small.webp" alt="harley davidson store" width="499" height="336" loading="lazy">
-                </picture>
-                <p>Timpanogos Harley Davidson</p>
-            </div>
-            <div class="grid-align img-8">
-                <picture>
-                    <source srcset="images/artisan-small.webp" media="(max-width: 499px)">
-                    <img class="lindon-img" src="images/artisan-small.webp" alt="artisan on state hair salon" width="499" height="430" loading="lazy">
-                </picture>
-                <p>Artisan Hair Salon on State</p>
-            </div> -->
         </div>
     </main>
     <footer>
-        <p>&copy; <span id="year"></span> WDD230-Web Frontend Development - Mckenzie Hess</p>
+        <p>&copy; <span id="year"></span> WDD230 - Web Frontend Development - Mckenzie Hess</p>
         <p id="lastModified"></p>
         <p><a href="chamber-site-plan.html">Site Plan</a></p>
-        <p><a href="about.html">About</a></p>
         <div class="social">
             <a href="https://facebook.com" target="_blank">
                 <img src="images/meta-logo.webp" alt="meta icon">
@@ -192,5 +150,6 @@
     <script src="scripts/lastModifiedDate.js"></script>
     <script src="scripts/hamburgerMenu.js"></script>
     <script src="scripts/lastVisitCount.js"></script>
+    <script src="scripts/banner.js"></script>
 </body>
 </html>
