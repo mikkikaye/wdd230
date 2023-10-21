@@ -38,9 +38,6 @@
         font-family: Lato;
         font-size: 1.5em;
     }
-    .hide {
-        visibility: none;
-    }
 
     .banner::before {
         content: "Come to our Chamber of Commerce Meet & Greet on Wednesday @ 7 pm!";
