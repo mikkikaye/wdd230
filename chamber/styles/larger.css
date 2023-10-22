@@ -89,7 +89,7 @@
         /* text-align: center; */
     }
     nav a:hover {
-        background-color: #538EB6;
+        background-color: #7ABCF7;
         color: white;
     }
     nav ul {
@@ -103,7 +103,7 @@
         padding: 35px 25px;
     }
     .active {
-        background-color: #538EB6;
+        background-color: #7ABCF7;
         color: white;
         padding: 35px 5px;
     }
@@ -127,7 +127,7 @@
 
     }
     .button-link {
-        background-color: #548F08;
+        background-color: #396006;
         color: white;
         text-decoration: none;
         font-family: Lato, sans-serif;
@@ -195,7 +195,7 @@
     }
     .cleanup {
         display: block;
-        background-color: #548F08;
+        background-color: #396006;
         padding: 20px;
         border-radius: 8px;
         font-family: Lato;
@@ -288,7 +288,7 @@
     }
 
     .lindon-img {
-        border: 10px solid #B5C889;
+        border: 10px solid #B8C2C0;
         transition: transform .5s;
         box-shadow: 5px 5px 10px #6f7364;
         /* width: 100%; */
