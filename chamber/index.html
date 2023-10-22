@@ -32,10 +32,10 @@
         <a id="menu" href="#"></a>
         <nav>
             <ul class="navigation">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="directory.html">Member Directory</a></li>
-                <li><a href="join.html">Join the Chamber</a></li>
-                <li><a href="discover.html">Discover Lindon</a></li>
+                <li><a href="/chamber/index.html">Home</a></li>
+                <li><a href="/chamber/directory.html">Member Directory</a></li>
+                <li><a href="/chamber/join.html">Join the Chamber</a></li>
+                <li><a href="/chamber/discover.html">Discover Lindon</a></li>
             </ul>
         </nav>
     </header>
@@ -57,19 +57,17 @@
 
         <div class="eventDiv">
             <div class="events">
-                <div class="news">
-                    <h2>Current Events</h2>
-                    <ul>
-                        <li>October 27: Halloween Spooktacular</li>
-                        <li>November 10: City-Wide Cleanup</li>
-                        <li>November 21: Municipal Election</li>
-                    </ul>
-                    <img class="eventGraphic" src="images/halloween.webp" alt="cartoon candy pumpkin bucket" width="200" height="200" loading="lazy">
-                </div>
+                <h2>Current Events</h2>
+                <ul>
+                    <li>October 27: Halloween Spooktacular</li>
+                    <li>November 10: City-Wide Cleanup</li>
+                    <li>November 21: Municipal Election</li>
+                </ul>
+                <img class="eventGraphic" src="images/halloween.webp" alt="cartoon candy pumpkin bucket" width="200" height="200" loading="lazy">
             </div>
         
             <div class="cleanup">
-                <h2>November is Yard Cleanup month!</h2>
+                <h2 class="cleanup-mobile">November is Yard Cleanup month!</h2>
                 <img class="pruning" src="images/cleanup.webp" alt="man pruning tree" width="499" height="281" loading="lazy">
                 <p>As a member of the Chamber, <br>find out how you can sponsor this event!</p>
                 <div class="applyBtn">
@@ -100,9 +98,9 @@
 
     </main>
     <footer>
-        <p>&copy; <span id="year"></span> WDD230 - Web Frontend Development - Mckenzie Hess</p>
+        <p>&copy; <span id="year"></span> WDD230 - Mckenzie Hess</p>
         <p id="lastModified"></p>
-        <p><a href="chamber-site-plan.html">Site Plan</a></p>
+        <p>Contact the Chamber by phone or email: 801-896-7523, contact@lindonchamber.org</p>
         <div class="social">
             <a href="https://facebook.com" target="_blank">
                 <img src="images/meta-logo.webp" alt="meta icon">
@@ -121,5 +119,6 @@
     <script src="scripts/tempForecast.js"></script>
     <script src="scripts/spotlights.js"></script>
     <script src="scripts/banner.js"></script>
+    <script src="scripts/active.js"></script>
 </body>
 </html>

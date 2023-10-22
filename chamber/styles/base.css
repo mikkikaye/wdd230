@@ -90,14 +90,14 @@
         cursor: pointer;
     }
     
-    /* || Hero Image ||*/
+    /* |||| Hero Image ||||*/
 
     .button-box {
         text-align: center;
     }
 
     .button-link {
-        background-color: #447306;
+        background-color: #548F08;
         color: white;
         text-decoration: none;
         font-family: Cabin, Arial, sans-serif;
@@ -110,7 +110,7 @@
         color: #616161;
     }
 
-    /* |||| Spotlights |||| */
+/* |||| Spotlights |||| */
 
     h1 {
         font-family: Merriweather;
@@ -137,12 +137,12 @@
     }
 
     .card-img {
-        border: 5px solid #548F08;
-        border-radius: 7px;
+        border: 10px solid #B8C2C0;
+        box-shadow: 5px 5px 10px #6f7364;
     }
 
 
-    /* |||| Weather |||| */
+/* |||| Weather |||| */
 
     .weather-grid {
         display: flex;
@@ -154,7 +154,6 @@
     }
 
     .weather {
-        
         font-family: Cabin, Arial, sans-serif;
         line-height: 1.7em;
         padding: 15px;
@@ -179,7 +178,51 @@
         margin: 0;
         padding-top: 10px;
     }
-        
+    
+/* |||| Current Events ||||*/
+
+
+    .eventDiv {
+        display: flex;
+        flex-direction: column;
+        grid-gap: 20px;
+        justify-content: space-around;
+        margin: 0;
+    }
+    .events {
+        display: block;
+        background-color: #7ABCF7;
+        font-family: Lato;
+        font-size: 1.25rem;
+        padding: 20px;
+    }
+    .eventGraphic {
+        padding-left: 80px;
+        padding-top: 10px;
+    }
+
+    .cleanup {
+        display: block;
+        background-color: #548F08;
+        padding: 20px;
+        font-family: Lato;
+        font-size: 1.15rem;
+        text-align: center;
+        color: white;
+    }
+    .applyBtn {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .applyBtn-link {
+        background-color: white;
+        color: black;
+        text-decoration: none;
+        font-family: Lato, sans-serif;
+        font-size: 18px;
+        padding: 15px 30px;
+        border-radius: 5px; 
+    }
 
     /* |||| Footer ||||*/
 
@@ -196,6 +239,7 @@
     footer p {
         margin: 5px;
         text-align: center;
+        background-color: ;
     }
 
     .social {

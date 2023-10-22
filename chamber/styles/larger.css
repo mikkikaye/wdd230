@@ -89,8 +89,8 @@
         /* text-align: center; */
     }
     nav a:hover {
-        background-color: #4F6182;
-        color: #fefefe;
+        background-color: #538EB6;
+        color: white;
     }
     nav ul {
         list-style-type: none;
@@ -101,6 +101,11 @@
     nav li a {
         text-align: center;
         padding: 35px 25px;
+    }
+    .active {
+        background-color: #538EB6;
+        color: white;
+        padding: 35px 5px;
     }
 
 /* |||| Hero Image ||||*/
@@ -122,8 +127,8 @@
 
     }
     .button-link {
-        background-color: white;
-        color: black;
+        background-color: #548F08;
+        color: white;
         text-decoration: none;
         font-family: Lato, sans-serif;
         font-size: 18px;
@@ -168,7 +173,7 @@
     }
 
     .card-img {
-        border: 10px solid #B5C889;
+        border: 10px solid #B8C2C0;
         transition: transform .5s;
         box-shadow: 5px 5px 10px #6f7364;
         width: 100%;
@@ -186,8 +191,6 @@
         font-family: Lato;
         font-size: 1.25rem;
         padding: 20px;
-    }
-    .news {
         padding-right: 100px;
     }
     .cleanup {
