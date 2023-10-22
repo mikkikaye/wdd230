@@ -14,9 +14,9 @@ console.log(previousDateVisit);
 let timeInBetween = theDateToday - previousDateVisit;
 console.log(timeInBetween);
 
-if (timeInBetween < msToDays && timeInBetween > 0) {
-    visitMessage.textContent = "Back so soon! Awesome!";
-} else if (timeInBetween > msToDays) {
+if (timeInBetween < msToDays && previousDateVisit > 0) {
+    visitMessage.textContent = "Back so soon, awesome!";
+} else if (timeInBetween > msToDays && previousDateVisit > 0) {
     let days = timeInBetween / msToDays;
     let numberDays = Math.floor(days);
 
